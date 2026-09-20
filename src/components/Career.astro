@@ -1,0 +1,38 @@
+---
+import career from "../data/career.json";
+import "../styles/global.css";
+---
+
+<section class="experience" id="career">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Experience</h2>
+      <span class="section-depth">40 m · open water</span>
+    </div>
+    <div class="timeline">
+      {
+        career.map((role, i) => (
+          <article
+            class={`role ${i % 2 === 1 ? "from-right" : ""}`}
+            data-reveal
+          >
+            <div class="role-head">
+              <div>
+                <div class="role-title">{role.title}</div>
+                <div class="role-org">
+                  {role.org} · {role.place}
+                </div>
+              </div>
+              <div class="role-period">{role.period}</div>
+            </div>
+            <ul>
+              {role.bullets.map((b) => (
+                <li>{b}</li>
+              ))}
+            </ul>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>
