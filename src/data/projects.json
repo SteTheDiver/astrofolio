@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Video Communication Web App",
+    "org": "Kaleyra",
+    "period": "2023 — Present",
+    "creature": "angler",
+    "description": "Performance and cross-browser work on a real-time video communication product — a 20% cut in load times and a steadier experience under real network conditions.",
+    "tech": ["react", "typescript", "websockets"]
+  },
+  {
+    "title": "Atomic Design System",
+    "org": "Kaleyra",
+    "period": "2023 — Present",
+    "creature": "angler",
+    "description": "A reusable component library built on Atomic Design principles, giving the product team a scalable, consistent UI to build from.",
+    "tech": ["react", "styledcomponents", "storybook"]
+  },
+  {
+    "title": "SharePoint Intranet Solutions",
+    "org": "Xpis",
+    "period": "2021 — 2023",
+    "creature": "angler",
+    "description": "Custom SharePoint intranet tooling built with React and TypeScript inside SPFx, integrating enterprise REST APIs for secure internal data access.",
+    "tech": ["react", "typescript", "sharepoint"]
+  }
+]

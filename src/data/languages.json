@@ -1,0 +1,6 @@
+[
+  { "name": "Italian", "level": "Native", "pct": 100 },
+  { "name": "English", "level": "C2", "pct": 95 },
+  { "name": "French", "level": "A2", "pct": 35 },
+  { "name": "Czech", "level": "A1", "pct": 20 }
+]

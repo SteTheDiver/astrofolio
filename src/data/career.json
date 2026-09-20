@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Frontend Developer",
+    "org": "Kaleyra",
+    "place": "Milan, Italy",
+    "period": "02/2023 — Present",
+    "creature": "shark",
+    "bullets": [
+      "Developed and maintained a video communication web app, optimizing performance and cross-browser compatibility — cutting load times by 20% and stabilizing the user experience.",
+      "Contributed to a new Design System built on Atomic Design principles, building reusable components for a scalable, consistent UI.",
+      "Worked closely with UX/UI designers to modernize the web interface with pixel-perfect execution.",
+      "Led web accessibility efforts, implementing WCAG 2.1 AA standards across all features.",
+      "Drove up unit and integration test coverage, reducing post-release bug reports by 70%."
+    ]
+  },
+  {
+    "title": "Junior Frontend Developer",
+    "org": "Xpis",
+    "place": "Prague, Czech Republic",
+    "period": "03/2021 — 02/2023",
+    "creature": "dolphin",
+    "bullets": [
+      "Built custom SharePoint intranet solutions with React and TypeScript inside SPFx, using REST APIs for secure data retrieval from enterprise systems.",
+      "Translated Figma designs into responsive, production-ready interfaces.",
+      "Built reusable components and web parts to speed up development."
+    ]
+  },
+  {
+    "title": "Mentor & Team Leader",
+    "org": "Exapro",
+    "place": "Prague, Czech Republic",
+    "period": "2017 — 2020",
+    "creature": "shark",
+    "bullets": [
+      "Onboarded and coached new employees, running one-on-ones and mentoring sessions.",
+      "Managed a team of 5, overseeing performance, hiring and training."
+    ]
+  },
+  {
+    "title": "Senior Account Executive",
+    "org": "Exapro",
+    "place": "Prague, Czech Republic",
+    "period": "2014 — 2020",
+    "creature": "dolphin",
+    "bullets": [
+      "Managed 300+ accounts across Italy and the Netherlands, generating over €300,000 in revenue."
+    ]
+  },
+  {
+    "title": "Internal Auditor",
+    "org": "ALER Milano",
+    "place": "Milan, Italy",
+    "period": "2011 — 2013",
+    "creature": "shark",
+    "bullets": [
+      "Conducted audits from planning through final reporting, recommending improvements to internal controls."
+    ]
+  }
+]

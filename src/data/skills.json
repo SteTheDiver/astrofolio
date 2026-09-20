@@ -1,0 +1,27 @@
+{
+  "Frameworks": [
+    { "name": "React", "icon": "skill-icons:react-dark" },
+    { "name": "Next.js", "icon": "skill-icons:nextjs-dark" },
+    { "name": "Astro", "icon": "skill-icons:astro" },
+    { "name": "Node.js", "icon": "skill-icons:nodejs-dark" }
+  ],
+  "Languages": [
+    { "name": "TypeScript", "icon": "skill-icons:typescript" },
+    { "name": "JavaScript", "icon": "skill-icons:javascript" },
+    { "name": "PHP", "icon": "skill-icons:php-dark" },
+    { "name": "HTML", "icon": "skill-icons:html" }
+  ],
+  "Styling": [
+    { "name": "sass", "icon": "skill-icons:sass" },
+    { "name": "Styled Components", "icon": "skill-icons:styledcomponents" },
+    { "name": "Tailwind CSS", "icon": "skill-icons:tailwindcss-dark" }
+  ],
+  "Testing": [{ "name": "Jest", "icon": "skill-icons:jest" }],
+  "Tools": [
+    { "name": "Webpack", "icon": "skill-icons:webpack-dark" },
+    { "name": "Vite", "icon": "skill-icons:vite-dark" },
+    { "name": "Supabase", "icon": "skill-icons:supabase-dark" },
+    { "name": "Storybook", "icon": "simple-icons:storybook" },
+    { "name": "Ai Assisted Development", "icon": "skill-icons:aiscript-dark" }
+  ]
+}
