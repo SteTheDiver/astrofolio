@@ -1,0 +1,33 @@
+---
+import socials from "../data/social.json";
+import { Icon } from "astro-icon/components";
+---
+
+<section class="hero" id="intro">
+  <div class="wrap">
+    <h1><span>Stefano</span><span>Cattaneo</span></h1>
+    <p class="hero-sub">
+      Five-plus years building responsive, accessible, high-performance web apps
+      across software houses and large multinational teams. I work well at the
+      seam between engineering and the users.
+    </p>
+    <div class="hero-meta">
+      <div class="icon-row">
+        {
+          socials.map((social) => (
+            <a
+              href={social.url}
+              target="_blank"
+              class="icon-btn"
+              aria-label={social.name}
+              title={social.name}
+            >
+              <Icon name={social.icon} class="icon" />
+              <span class="social-name">{social.name}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
