@@ -541,6 +541,54 @@ section + section {
   text-align: right;
 }
 
+.contacts {
+  margin: auto;
+  background: transparent;
+  min-height: 20vh;
+}
+
+.contacts .icon-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts .icon-btn .icon {
+  color: transparent;
+  fill: none;
+  stroke: transparent;
+  stroke-width: 1;
+  animation-name: color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease;
+}
+
+@keyframes color {
+  0% {
+    stroke: #f10404;
+  }
+  20% {
+    stroke: transparent;
+  }
+  30% {
+    stroke: #0051ff;
+  }
+  50% {
+    stroke: transparent;
+  }
+  60% {
+    stroke: #ffff00;
+  }
+  80% {
+    stroke: transparent;
+  }
+  100% {
+    stroke: #00ff00;
+  }
+}
+
 /* ---------------- Footer ---------------- */
 
 footer {
@@ -548,7 +596,7 @@ footer {
   color: var(--text-faint);
   padding: 1.75rem 0 2.5rem;
   font-size: 0.8rem;
-  border-top: 1px solid var(--line);
+  border-top: none;
 }
 
 footer .wrap {
