@@ -12,9 +12,9 @@
     { "name": "HTML", "icon": "skill-icons:html" }
   ],
   "Styling": [
+    { "name": "Tailwind CSS", "icon": "skill-icons:tailwindcss-dark" },
     { "name": "sass", "icon": "skill-icons:sass" },
-    { "name": "Styled Components", "icon": "skill-icons:styledcomponents" },
-    { "name": "Tailwind CSS", "icon": "skill-icons:tailwindcss-dark" }
+    { "name": "Styled Components", "icon": "skill-icons:styledcomponents" }
   ],
   "Testing": [{ "name": "Jest", "icon": "skill-icons:jest" }],
   "Tools": [
