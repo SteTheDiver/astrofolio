@@ -1,0 +1,30 @@
+---
+import skills from "../data/skills.json";
+import { Icon } from "astro-icon/components";
+---
+
+<section class="skills" id="tech">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Tech Stack</h2>
+      <span class="section-depth">300 m · deep pelagic</span>
+    </div>
+    <div class="skill-grid">
+      {
+        Object.entries(skills).map(([group, items]) => (
+          <div class="skill-group">
+            <h3>{group}</h3>
+            <div class="chip-row">
+              {items.map((item) => (
+                <span class="chip">
+                  <Icon name={item.icon} class="icon" />
+                  {item.name}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
