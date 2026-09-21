@@ -1,0 +1,57 @@
+<div>
+  <nav class="navbar" aria-label="Primary">
+    <div class="nav-links">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#career" data-nav="career">Career</a>
+      <a href="#tech" data-nav="tech">Tech</a>
+      <a href="#projects" data-nav="projects">Projects</a>
+      <a href="#education" data-nav="education">Education</a>
+      <a href="#contacts" data-nav="contacts">Contacts</a>
+    </div>
+  </nav>
+</div>
+
+<style>
+  .navbar {
+    position: fixed;
+    height: fit-content;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+    transition: all 500ms ease-in-out;
+    opacity: 1;
+    padding-top: 1rem;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: clamp(1.25rem, 3vw, 2.25rem);
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--line);
+    background: var(--surface-2);
+    border-radius: 2rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(3, 10, 24, 0.35);
+  }
+
+  .nav-links a {
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-muted);
+    padding: 0.3rem 0.1rem;
+    transition: color 0.25s ease;
+  }
+
+  .nav-links a:hover {
+    color: var(--paper);
+  }
+
+  .nav-links a.active {
+    color: var(--paper);
+    font-weight: 700;
+  }
+</style>
