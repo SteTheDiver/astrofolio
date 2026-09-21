@@ -1,0 +1,29 @@
+---
+import socials from "../data/social.json";
+import { Icon } from "astro-icon/components";
+---
+
+<section class="contacts" id="contacts">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Contacts</h2>
+      <span class="section-depth">4000 m · abyss</span>
+    </div>
+    <div class="icon-row">
+      {
+        socials.map((social) => (
+          <a
+            href={social.url}
+            target="_blank"
+            class="icon-btn"
+            aria-label={social.name}
+            title={social.name}
+          >
+            <Icon name={social.icon} class="icon" />
+            <span class="social-name">{social.name}</span>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</section>
