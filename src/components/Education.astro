@@ -1,0 +1,40 @@
+---
+import languages from "../data/languages.json";
+---
+
+<section class="trench" id="education">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Education &amp; languages</h2>
+    </div>
+    <div class="two-col">
+      <div>
+        <div class="edu-item">
+          <h3>Full Stack Web Development Bootcamp</h3>
+          <span class="role-org">Data4You, Prague, Czech Republic</span>
+          <span class="role-period">2020</span>
+        </div>
+        <div class="edu-item">
+          <h3>Degree in Business Administration</h3>
+          <span class="role-org"
+            >Università Cattolica del Sacro Cuore, Milan, Italy</span
+          >
+          <span class="role-period">2011</span>
+        </div>
+      </div>
+      <div class="lang-list">
+        {
+          languages.map((l) => (
+            <div class="lang-row">
+              <span class="lang-name">{l.name}</span>
+              <span class="lang-bar">
+                <span style={`width:${l.pct}%`} />
+              </span>
+              <span class="lang-level">{l.level}</span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
